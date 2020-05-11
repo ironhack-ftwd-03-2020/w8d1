@@ -51,6 +51,7 @@ app.locals.title = 'Express - Generated with IronGenerator';
 
 
 app.use('/api/projects', require('./routes/project'));
+app.use('/api/tasks', require('./routes/task'));
 
 
 module.exports = app;

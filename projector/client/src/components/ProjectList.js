@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const ProjectList = props => {
   return (
@@ -9,7 +10,7 @@ const ProjectList = props => {
         return (
           <div key={project._id}>
             <h3>
-              {project.title}
+              <Link to={`/projects/${project._id}`}>{project.title}</Link>
             </h3>
           </div>
         );
