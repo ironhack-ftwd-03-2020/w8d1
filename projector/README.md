@@ -5,6 +5,7 @@ $ touch .env
 ```
 
 ```bash
+// .env
 PORT=5555
 ```
 
